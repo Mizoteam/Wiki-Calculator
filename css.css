@@ -1,0 +1,92 @@
+body {
+    background: rgb(112, 249, 135);
+}
+*{
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+input[type="submit"]{
+    color: #0080ff;
+    border-radius: 3pc;
+    background-color: #2d343a;
+    width: 7pc;
+    height: 2pc;
+}
+.wrap {
+    width: 400px;
+    margin: auto;
+    height: auto;
+    background: rgb(0, 0, 0);
+    padding: 15px;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(243, 241, 142);
+    background-color: rgb(139, 139, 139);
+} 
+input[type="button"]{
+    width: 89px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: rgb(243, 241, 142);
+    background-color: rgb(45, 48, 48);
+}
+input[type="button"]:hover{
+    background-color: lightslategray;
+    color: black;
+}
+#del {
+    width: 100%;
+}
+p{
+    font-family: Comic Sans MS	;
+}
+.hi{
+    color: rgba(0, 0, 0, 0.67);
+    font-family: Comic Sans MS	;
+    text-align: center;
+    font-size: larger;
+}
+
+.aa{
+    color: #0080ff;
+    background-color: rgba(119, 0, 255, 0.151);
+}
+.bb{
+    color: #ad3ab5;
+    background-color: rgba(119, 0, 255, 0.151);
+}
+.cc{
+    color: #4c0a58;
+    background-color: rgba(119, 0, 255, 0.151);
+  }
+  input[type="tel"]{
+    background-color: rgb(48, 47, 46);
+    border-radius: 5pt;
+  }
+  input[type="password"]{
+    background-color: rgb(48, 47, 46);
+    border-radius: 5pt;
+  }
+  .ac{
+    font-size: large;
+    font-family: Comic Sans MS;
+
+  }
+  .ab{
+    font-size: large;
+    font-family: Comic Sans MS;
+  }
+  .sdd{
+    font-size: large;
+    font-family: Comic Sans MS;
+  }

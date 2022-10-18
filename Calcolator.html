@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           Niki Calculator
+        </title>
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+       <div class="hi">
+        <h1>
+          Niki Calculator
+        </h1>
+       </div>
+        <div class="wrap">
+            <form name="cal">
+              
+                <input type="text" name="display" placeholder="Enter Number">
+                <br>
+                <br>
+                <input type="button" value="9" onclick="cal.display.value+='9'">
+                <input type="button" value="8" onclick="cal.display.value+='8'">
+                <input type="button" value="7" onclick="cal.display.value+='7'">
+                <input type="button" value="+" onclick="cal.display.value+='+'">
+                <br>
+                <br>
+                <input type="button" value="6" onclick="cal.display.value+='6'">
+                <input type="button" value="5" onclick="cal.display.value+='5'">
+                <input type="button" value="4" onclick="cal.display.value+='4'">
+                <input type="button" value="-" onclick="cal.display.value+='-'">
+                <br>
+                <br>
+                <input type="button" value="3" onclick="cal.display.value+='3'">
+                <input type="button" value="2" onclick="cal.display.value+='2'">
+                <input type="button" value="1" onclick="cal.display.value+='1'">
+                <input type="button" value="*" onclick="cal.display.value+='*'">
+                <br>
+                <br>
+                <input type="button" value="0" onclick="cal.display.value+='0'">
+                <input type="button" value="/" onclick="cal.display.value+='/'">
+                <input type="button" value="%" onclick="cal.display.value+='%'">
+                <input type="button" value="=" onclick="cal.display.value =eval(cal.display.value)">
+                <br>
+                <br>
+                <input type="button" value="CE" onclick="cal.display.value= ''" id="del">
+            </form>
+        </div>
+        <div align="center" id="s">
+            <h2>
+               <p> Niki Foundation <br>
+                Share us in : </p><br>
+                <a class="aa" target="_blank" href="http://www.facebook.com/">Facebook</a>
+                
+                <br>
+                <a class="bb" target="_blank" href="https://www.instagram.com/">Insgram</a>
+                
+                <br>
+                <a target="_blank" class="cc" href="https://discord.com/">Discord</a>
+            </h2>
+        </div>
+        <table align="center">
+            <tr>
+                <td class="ac">Username:</td>
+                <td><input class="sd" type="tel"></td>
+            </tr>
+            <tr>
+                <td class="ab">&nbsp;Password:</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="" id="sd"></td>
+                <td class="sdd"><label for="sd">Remember me</label></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="passrec.html">Forget Password</a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;<input type="submit" value="Subscribe">
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
